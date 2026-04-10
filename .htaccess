@@ -1,0 +1,7 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^amourhijab\.web\.id$
+RewriteRule ^/?$ "https\:\/\/amourhijab\.web\.id\/" [R=301,L]
+

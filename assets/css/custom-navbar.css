@@ -1,0 +1,40 @@
+.navbar-brand {
+    color: #000 !important;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Arial Black', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 1.5rem;
+}
+
+.custom-navbar {
+    background-color: #d9a9a9 !important;
+}
+
+.custom-navbar .nav-link {
+    color: #000 !important;
+    font-weight: 600;
+    text-transform: none;
+    padding: 0.5rem 1rem;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.custom-navbar .nav-link.active {
+    font-weight: 5;
+    color: #000 !important;
+}
+
+.custom-navbar .navbar-nav {
+    /* margin-left: auto; */
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.custom-navbar .nav-item {
+    display: flex;
+    align-items: center;
+}
+

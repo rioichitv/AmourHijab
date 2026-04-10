@@ -1,0 +1,204 @@
+.body{
+    background:#ffff;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+}
+.body img{
+  filter: brightness(40%);   
+}
+
+.jumbotron-custom{
+    margin: auto;
+    width: 100%;
+    background:#FFFFFF;
+    margin-bottom: 200px;
+    padding:50px;
+    border-radius: 15px; 
+}
+
+.container-custom{
+    background: #ffff;
+    margin: auto;
+    width: 95%;
+    border-radius: 15px 15px 0 0;
+}
+.about-us img{
+    filter: brightness(100%);
+}
+
+.card-body {
+    background-color: #ffff !important;
+}
+
+.card {
+    background-color: #ffff !important;
+}
+
+.btn-view-product {
+    background-color: #dfadae;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    padding: 8px 20px;
+    display: block;
+    width: 140px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-view-product:hover {
+    background-color: #c78f95;
+    color: white;
+    text-decoration: none;
+}
+
+.card-title.text-center {
+    color: black !important;
+}
+
+/* Custom pagination styles to match screenshot */
+.pagination {
+    /* Removed background color and padding to remove long box */
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.pagination .page-item {
+    margin: 0 3px;
+}
+
+.pagination .page-link {
+    color: #a85a5a;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    min-width: auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.pagination .page-link:hover {
+    background-color: #f2c6c6;
+    color: #7a3a3a;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #dba3a3;
+    color: white;
+    font-weight: 700;
+    cursor: default;
+    pointer-events: none;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pagination .page-item {
+    margin: 0 3px;
+}
+
+.pagination .page-link {
+    color: #a85a5a;
+    background-color: #f9eaea;
+    border: none;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    min-width: 32px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Hide carousel indicators and control icons but keep functionality */
+.carousel-indicators,
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: none !important;
+}
+
+.pagination .page-link:hover {
+    background-color: #f2c6c6;
+    color: #7a3a3a;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #dba3a3;
+    color: white;
+    font-weight: 700;
+    cursor: default;
+    pointer-events: none;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#demo{
+    width: 100%;
+}
+.garis{
+    width: 100%;
+    height: 1%;
+    background: #000000;
+    margin-top: 20px;
+}
+
+
+#detail_transaksi a{
+    text-decoration: none;
+    color : #000;
+}
+#detail_transaksi a:hover{
+    text-decoration: none;
+    color : #000;
+}
+
+
+
+#footer{
+    background-color:#dfadae;
+    width: 100%;
+    /* height: 100%; */
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Custom overrides for detail_product.php */
+/* Removed as per user request */
+/*
+ 
+#header img{
+     
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+*/
